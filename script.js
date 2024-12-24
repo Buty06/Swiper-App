@@ -3,12 +3,8 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
   effect: 'cards',
+  autoplay: {
+    delay: 2000,
+  },
 });
